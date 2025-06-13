@@ -30,7 +30,11 @@ public class VendaService {
                 throw new InvalidOperationException("Produto não disponível para venda");
             }
 
+<<<<<<< HEAD
             Venda venda = new Venda(0, cliente);
+=======
+            Venda venda = new Venda(0, cliente, produto);
+>>>>>>> c88f66b7ade30244c0a0d7dacb3a951e81502d6d
             produto.setDisponivel(false);
             vendaRepository.adicionar(venda);
 

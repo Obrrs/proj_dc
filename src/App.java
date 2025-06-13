@@ -11,10 +11,13 @@ import views.ClienteView;
 import views.MainView;
 import views.ProdutoView;
 import views.VendaView;
+<<<<<<< HEAD
 import models.*;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
+=======
+>>>>>>> c88f66b7ade30244c0a0d7dacb3a951e81502d6d
 
 public class App {
     public static void main(String[] args) {

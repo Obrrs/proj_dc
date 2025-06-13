@@ -12,6 +12,7 @@ public class Jogo extends Produto {
     }
 
     public String getPlataforma() { return plataforma; }
+<<<<<<< HEAD
     public void setPlataforma(String plataforma) { this.plataforma = plataforma; }
 
     public String getDesenvolvedora() { return desenvolvedora; }
@@ -21,5 +22,13 @@ public class Jogo extends Produto {
     public String toString() {
         return "[JOGO] " + super.toString() + " | Plataforma: " + plataforma +
                 " | Desenvolvedora: " + desenvolvedora;
+=======
+    public String getDesenvolvedora() { return desenvolvedora; }
+
+    @Override
+    public String toString() {
+        return codigo + " | " + titulo + " | " + plataforma + " | R$" + preco +
+                " | " + (disponivel ? "Disponível" : "Vendido");
+>>>>>>> c88f66b7ade30244c0a0d7dacb3a951e81502d6d
     }
 }
